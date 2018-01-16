@@ -1,0 +1,56 @@
+* {
+    margin : 0;
+    padding: 0;
+}
+
+.firstBlock {
+    background-color: red;
+    border-width: 10px;
+    border-color: darkred;
+    
+    height: 200px;
+    width: 75%;
+    
+    margin: auto;
+    margin-top: 30px;
+    
+    font-size: 2.5em;
+    line-height: 200px;    
+}
+
+.firstBlock p {
+    margin-left: 60px;
+}
+
+.secondBlock {
+    background-color: blue;
+    border-radius: 5px;
+    width: 75%;
+
+    margin: auto;
+    margin-top: 30px;
+
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.secondBlock img {
+    margin: 20px 20px 20px auto;    
+}
+
+.button {
+    background-color: green;
+    border-radius: 100%;
+    
+    width: 65px;
+    height: 65px;
+    
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    
+    font-size: 1,2em;
+    line-height: 65px;
+    text-align: center;
+
+}
