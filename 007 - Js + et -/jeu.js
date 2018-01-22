@@ -6,6 +6,8 @@ var maxValue = 100;
 var tries = 1;
 var response = false;
 
+
+
 // Création des fonctions
 
 //Cette fonction génére un chiffre aléatoire
