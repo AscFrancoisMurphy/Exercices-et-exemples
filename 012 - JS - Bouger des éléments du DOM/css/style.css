@@ -9,12 +9,11 @@ html{
 
 .board{
     position: absolute;
-    left: 50%;
-    top: 50%;
+    margin: auto;
     background-color: black;
     width: 500px;
     height: 500px;
-    transform: translate(-50%,-50%);
+
 
 
 }
@@ -24,7 +23,6 @@ html{
     width: 20px;
     height: 20px;
     background-color: blue;
-    transform: translate(-50%,-50%);
     left: 50%;
     top: 50%;
 }

@@ -1,0 +1,27 @@
+.grand-conteneur {
+    background-color: lightsteelblue;
+    margin: auto;
+    width: 500;
+    height: 250;
+    overflow: hidden;
+    position: fixed;
+
+}
+
+.img-conteneur {
+    background-color: lightskyblue;
+    position: relative;
+    z-index: -1;
+    display: flex;
+    width: 1500;    
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    display: block;
+}
+

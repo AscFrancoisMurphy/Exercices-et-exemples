@@ -7,6 +7,8 @@ var gameSpeed = playersize / 2;
 var boardsize = 500; // size of the board in pixel
 var playersize = 20; // size of the player in pixel
 
+
+
 // DOM elements
 
 var player = document.getElementById("player");
@@ -24,6 +26,8 @@ function initialize() {
     player.style.height = boardsize;
 }
 
+
+
 /** moveToward a direction
  * direction : The direction that the object move toward
  *    must be "up", "right", "down", "left"
@@ -36,13 +40,20 @@ function initialize() {
 
 function moveToward(direction, speed, object) {
 
-    // save the object position
-    var objectPositionX = object.offsetLeft;
-    var objectPositionY = object.offsetTop;
+    var objectPositionX;
+    var objectPositionY;
 
-    if (debugmode) {
-        console.log("start position ", objectPositionX, objectPositionY);
+    function savePosition(object) {
+        // save the object position
+        objectPositionX = object.offsetLeft;
+        objectPositionY = object.offsetTop;
+
+        if (debugmode) {
+            console.log("position", objectPositionX, objectPositionY);
+        }
     }
+
+    savePosition(object);
 
     //move an object
     if (direction === "up") {
@@ -68,14 +79,8 @@ function moveToward(direction, speed, object) {
         object.style.top = playersize / 2 + "px";
     }
 
+    savePosition(object);
 
-
-    objectPositionX = object.offsetLeft;
-    objectPositionY = object.offsetTop;
-
-    if (debugmode) {
-        console.log("end position", objectPositionX, objectPositionY);
-    }
 
 }
 

@@ -10,6 +10,3 @@ function compter(min, max, inter, mot) {
     
 }
 
-compter(1, 12, 3, "nictalope");
-compter(1, 20, 5, "mayonnaise");
-compter(501, 503, 1, "alambic");
