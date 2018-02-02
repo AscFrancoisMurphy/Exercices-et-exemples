@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(1, 1, 36);
+}
+
+.conteneur {
+    background: rgb(0, 114, 228);
+    width: 500px;
+    height: 500px;
+    position: relative;
+    margin : auto;
+    margin-top: 50px;
+}
+
+.bloc {
+    background: fuchsia;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 470px;
+}

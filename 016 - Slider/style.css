@@ -4,13 +4,13 @@
     width: 500;
     height: 250;
     overflow: hidden;
-    position: fixed;
+    position: relative;
 
 }
 
 .img-conteneur {
     background-color: lightskyblue;
-    position: relative;
+    position: fixed;
     z-index: -1;
     display: flex;
     width: 1500;    
